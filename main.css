@@ -52,7 +52,34 @@ main {
     justify-content: center;
 }
 
+img {
+    border-radius: 3px;
+}
+
 .welcome {
-    width: 80%;
-    padding: 5% 2%;
+    padding: 1% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-card {
+    max-width: 900px;
+}
+
+.greeting {
+    width: 30%;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    border-radius: 5%;
 }
